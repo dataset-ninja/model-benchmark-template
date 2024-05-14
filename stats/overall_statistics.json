@@ -1,0 +1,23 @@
+{
+  "categories": [
+    "Category A",
+    "Category B",
+    "Category C",
+    "Category D",
+    "Category E"
+  ],
+  "series": [
+    {
+      "name": "Series 1",
+      "data": [80, 70, 90, 60, 85]
+    },
+    {
+      "name": "Series 2",
+      "data": [60, 80, 70, 90, 75]
+    },
+    {
+      "name": "Series 3",
+      "data": [70, 60, 80, 75, 85]
+    }
+  ]
+}
