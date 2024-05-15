@@ -29,7 +29,7 @@
       },
       "height": 300,
       "xaxis": {
-        "categories": [0.5, 0.55]
+        "type": "numeric"
       }
     }
   },
