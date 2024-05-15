@@ -10,8 +10,8 @@
     "type": "radar"
   },
   "type": "radar",
+  "height": 350,
   "sly_options": {
     "tooltip": "Click to preview {y} images with {x} objects of class {series_name}"
-  },
-  "height": 350
+  }
 }
