@@ -12,6 +12,7 @@
   "title": {
     "text": "Basic Radar Chart"
   },
+  "type": "radar",
   "yaxis": {
     "stepSize": 20
   },
