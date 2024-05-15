@@ -22,28 +22,35 @@
         }
       },
       "height": 300,
+      "legend": { "show": false },
+      "plotOptions": {
+        "bar": {
+          "columnWidth": "45%",
+          "distributed": true
+        }
+      },
       "xaxis": {
         "categories": [
-          "('spoon', 'fork')",
-          "('truck', 'car')",
-          "('handbag', 'backpack')",
-          "('bed', 'couch')",
-          "('truck', 'bus')",
-          "('bowl', 'cup')",
-          "('orange', 'apple')",
-          "('knife', 'fork')",
-          "('suitcase', 'backpack')",
-          "('cake', 'sandwich')",
-          "('spoon', 'knife')",
-          "('cow', 'sheep')",
-          "('cake', 'donut')",
-          "('pizza', 'sandwich')",
-          "('motorcycle', 'bicycle')",
-          "('chair', 'bench')",
-          "('couch', 'chair')",
-          "('cup', 'wine glass')",
-          "('cup', 'bottle')",
-          "('dining table', 'bowl')"
+          "(spoon, fork)",
+          "(truck, car)",
+          "(handbag, backpack)",
+          "(bed, couch)",
+          "(truck, bus)",
+          "(bowl, cup)",
+          "(orange, apple)",
+          "(knife, fork)",
+          "(suitcase, backpack)",
+          "(cake, sandwich)",
+          "(spoon, knife)",
+          "(cow, sheep)",
+          "(cake, donut)",
+          "(pizza, sandwich)",
+          "(motorcycle, bicycle)",
+          "(chair, bench)",
+          "(couch, chair)",
+          "(cup, wine glass)",
+          "(cup, bottle)",
+          "(dining table, bowl)"
         ]
       }
     }
