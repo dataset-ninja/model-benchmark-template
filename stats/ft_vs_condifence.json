@@ -1,0 +1,43 @@
+{
+  "series": [
+    {
+      "data": [
+        {
+          "x": 20,
+          "y": 54
+        },
+        {
+          "x": 30,
+          "y": 66
+        }
+      ]
+    }
+  ],
+  "options": {
+    "chart": {
+      "type": "line",
+      "toolbar": {
+        "tools": {
+          "download": true,
+          "selection": false,
+          "zoom": false,
+          "zoomin": false,
+          "zoomout": false,
+          "pan": false,
+          "reset": false
+        }
+      },
+      "height": 300,
+      "xaxis": {
+        "categories": [0.5, 0.55]
+      }
+    }
+  },
+  "type": "line",
+  "xaxis": {
+    "type": "numeric"
+  },
+  "sly_options": {
+    "tooltip": "Score: {y} Category: {x} Series: {series_name}"
+  }
+}
