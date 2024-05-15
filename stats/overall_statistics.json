@@ -5,6 +5,9 @@
       "data": [80, 50, 30, 40, 100, 20]
     }
   ],
+  "title": {
+    "text": "Basic Radar Chart"
+  },
   "type": "radar",
   "height": 150,
   "sly_options": {
