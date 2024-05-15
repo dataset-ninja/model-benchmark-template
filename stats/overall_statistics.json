@@ -25,7 +25,8 @@
       },
       "xaxis": {
         "categories": ["January", "February", "March", "April", "May", "June"]
-      }
+      },
+      "labels": ["April", "May", "June", "July", "August", "September"]
     },
     "title": {
       "text": "Basic Radar Chart"
