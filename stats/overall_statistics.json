@@ -2,7 +2,10 @@
   "series": [
     {
       "name": "Series 1",
-      "data": [80, 50, 30, 40, 100, 20]
+      "data": [
+        0.4608892816325644, 0.5729096009728507, 0.5250150210973183,
+        0.8634839079601396, 0.973975592014871, 0.8525407401429363
+      ]
     }
   ],
   "options": {
@@ -24,15 +27,14 @@
         "stepSize": 20
       },
       "xaxis": {
-        "categories": ["April", "May", "June", "July", "August", "September"],
-        "labels": {
-          "show": true,
-          "style": {
-            "colors": ["#a8a8a8"],
-            "fontSize": "11px",
-            "fontFamily": "Arial"
-          }
-        }
+        "categories": [
+          "mAP",
+          "precision",
+          "recall",
+          "iou",
+          "classification_accuracy",
+          "reliability"
+        ]
       }
     }
   },
