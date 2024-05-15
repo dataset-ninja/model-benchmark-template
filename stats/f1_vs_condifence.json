@@ -1,6 +1,7 @@
 {
   "series": [
     {
+      "name": "Precision",
       "data": [
         {
           "x": 20,
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "name": "Recall",
       "data": [
         {
           "x": 10,
