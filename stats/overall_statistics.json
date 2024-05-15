@@ -6,7 +6,7 @@
     }
   ],
   "type": "radar",
-  "height": 350,
+  "height": 150,
   "sly_options": {
     "tooltip": "rm tooltip later -> {y} images with {x} objects of class {series_name}"
   }
