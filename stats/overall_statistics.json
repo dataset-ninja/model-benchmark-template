@@ -12,5 +12,11 @@
   "height": 150,
   "sly_options": {
     "tooltip": "rm tooltip later -> {y} images with {x} objects of class {series_name}"
+  },
+  "yaxis": {
+    "stepSize": 20
+  },
+  "xaxis": {
+    "categories": ["January", "February", "March", "April", "May", "June"]
   }
 }
