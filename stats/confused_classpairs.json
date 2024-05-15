@@ -1,0 +1,55 @@
+{
+  "series": [
+    {
+      "name": "Frequently Confused Classes",
+      "data": [
+        20, 84, 19, 13, 17, 40, 9, 9, 11, 9, 8, 13, 8, 7, 9, 26, 20, 13, 16, 8
+      ]
+    }
+  ],
+  "options": {
+    "chart": {
+      "type": "bar",
+      "toolbar": {
+        "tools": {
+          "download": true,
+          "selection": false,
+          "zoom": false,
+          "zoomin": false,
+          "zoomout": false,
+          "pan": false,
+          "reset": false
+        }
+      },
+      "height": 300,
+      "xaxis": {
+        "categories": [
+          "('spoon', 'fork')",
+          "('truck', 'car')",
+          "('handbag', 'backpack')",
+          "('bed', 'couch')",
+          "('truck', 'bus')",
+          "('bowl', 'cup')",
+          "('orange', 'apple')",
+          "('knife', 'fork')",
+          "('suitcase', 'backpack')",
+          "('cake', 'sandwich')",
+          "('spoon', 'knife')",
+          "('cow', 'sheep')",
+          "('cake', 'donut')",
+          "('pizza', 'sandwich')",
+          "('motorcycle', 'bicycle')",
+          "('chair', 'bench')",
+          "('couch', 'chair')",
+          "('cup', 'wine glass')",
+          "('cup', 'bottle')",
+          "('dining table', 'bowl')"
+        ]
+      }
+    }
+  },
+  "type": "bar",
+  "sly_options": {
+    "tooltip": "Score: {y} Category: {x} Series: {series_name}"
+  }
+}
