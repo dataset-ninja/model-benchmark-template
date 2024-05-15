@@ -10,5 +10,8 @@
     "type": "radar"
   },
   "type": "radar",
-  "height": 350
+  "height": 350,
+  "sly_options": {
+    "tooltip": "rm tooltip later"
+  }
 }
