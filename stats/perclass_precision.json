@@ -1,0 +1,50 @@
+{
+  "series": [
+    {
+      "name": "Net Profit",
+      "data": [44, 55, 57, 56, 61, 58, 63, 60, 66]
+    },
+    {
+      "name": "Revenue",
+      "data": [76, 85, 101, 98, 87, 105, 91, 114, 94]
+    },
+    {
+      "name": "Free Cash Flow",
+      "data": [35, 41, 36, 26, 45, 48, 52, 53, 41]
+    }
+  ],
+  "options": {
+    "chart": {
+      "type": "bar",
+      "toolbar": {
+        "tools": {
+          "download": true,
+          "selection": false,
+          "zoom": false,
+          "zoomin": false,
+          "zoomout": false,
+          "pan": false,
+          "reset": false
+        }
+      },
+      "height": 300,
+      "xaxis": {
+        "categories": [
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
+        ]
+      }
+    }
+  },
+  "type": "bar",
+  "sly_options": {
+    "tooltip": "Score: {y} Category: {x} Series: {series_name}"
+  }
+}
