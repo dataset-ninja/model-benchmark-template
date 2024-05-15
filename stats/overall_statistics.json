@@ -9,18 +9,9 @@
     "height": 350,
     "type": "radar"
   },
-  "title": {
-    "text": "Basic Radar Chart"
-  },
   "type": "radar",
   "sly_options": {
     "tooltip": "Click to preview {y} images with {x} objects of class {series_name}"
   },
-  "height": 350,
-  "yaxis": {
-    "stepSize": 20
-  },
-  "xaxis": {
-    "categories": ["January", "February", "March", "April", "May", "June"]
-  }
+  "height": 350
 }
