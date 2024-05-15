@@ -23,7 +23,6 @@
   "options": {
     "chart": {
       "type": "bar",
-      "stacked": true,
       "toolbar": {
         "tools": {
           "download": true,
@@ -123,7 +122,6 @@
     }
   },
   "type": "bar",
-  "stacked": true,
   "sly_options": {
     "tooltip": "Score: {y} Category: {x} Series: {series_name}"
   }
