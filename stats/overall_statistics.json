@@ -19,5 +19,7 @@
       "name": "Series 3",
       "data": [70, 60, 80, 75, 85]
     }
-  ]
+  ],
+  "type": "radar",
+  "height": 350
 }
