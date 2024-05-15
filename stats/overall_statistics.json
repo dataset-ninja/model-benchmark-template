@@ -34,9 +34,6 @@
           }
         }
       }
-    },
-    "title": {
-      "text": "Basic Radar Chart"
     }
   },
   "type": "radar",
