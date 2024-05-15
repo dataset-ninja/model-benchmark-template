@@ -5,10 +5,6 @@
       "data": [80, 50, 30, 40, 100, 20]
     }
   ],
-  "chart": {
-    "height": 350,
-    "type": "radar"
-  },
   "type": "radar",
   "height": 350,
   "sly_options": {
