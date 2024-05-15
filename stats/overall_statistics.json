@@ -13,6 +13,9 @@
     "text": "Basic Radar Chart"
   },
   "type": "radar",
+  "sly_options": {
+    "tooltip": "Click to preview {y} images with {x} objects of class {series_name}"
+  },
   "height": 350,
   "yaxis": {
     "stepSize": 20
