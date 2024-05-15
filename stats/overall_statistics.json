@@ -19,7 +19,7 @@
           "reset": false
         }
       },
-      "height": 150,
+      "height": 300,
       "yaxis": {
         "stepSize": 20
       },
@@ -32,7 +32,6 @@
     }
   },
   "type": "radar",
-  "height": 150,
   "sly_options": {
     "tooltip": "rm tooltip later -> {y} images with {x} objects of class {series_name}"
   }
