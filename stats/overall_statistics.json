@@ -24,9 +24,16 @@
         "stepSize": 20
       },
       "xaxis": {
-        "categories": ["January", "February", "March", "April", "May", "June"]
-      },
-      "labels": ["April", "May", "June", "July", "August", "September"]
+        "categories": ["April", "May", "June", "July", "August", "September"],
+        "labels": {
+          "show": true,
+          "style": {
+            "colors": ["#a8a8a8"],
+            "fontSize": "11px",
+            "fontFamily": "Arial"
+          }
+        }
+      }
     },
     "title": {
       "text": "Basic Radar Chart"
