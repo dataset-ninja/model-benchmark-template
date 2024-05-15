@@ -1,25 +1,17 @@
 {
-  "categories": [
-    "Category A",
-    "Category B",
-    "Category C",
-    "Category D",
-    "Category E"
-  ],
   "series": [
     {
       "name": "Series 1",
-      "data": [80, 70, 90, 60, 85]
-    },
-    {
-      "name": "Series 2",
-      "data": [60, 80, 70, 90, 75]
-    },
-    {
-      "name": "Series 3",
-      "data": [70, 60, 80, 75, 85]
+      "data": [80, 50, 30, 40, 100, 20]
     }
   ],
+  "chart": {
+    "height": 350,
+    "type": "radar"
+  },
   "type": "radar",
-  "height": 350
+  "height": 350,
+  "sly_options": {
+    "tooltip": "Click to preview {y} images with {x} objects of class {series_name}"
+  }
 }
