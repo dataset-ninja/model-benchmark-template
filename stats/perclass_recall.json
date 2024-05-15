@@ -1,16 +1,13 @@
 {
   "series": [
     {
-      "name": "Series 1",
-      "data": [
-        0.4608892816325644, 0.5729096009728507, 0.5250150210973183,
-        0.8634839079601396, 0.973975592014871, 0.8525407401429363
-      ]
+      "name": "Net Profit",
+      "data": [44, 55, 57, 56, 61, 58, 63, 60, 66]
     }
   ],
   "options": {
     "chart": {
-      "type": "radar",
+      "type": "bar",
       "toolbar": {
         "tools": {
           "download": true,
@@ -25,17 +22,20 @@
       "height": 300,
       "xaxis": {
         "categories": [
-          "mAP",
-          "precision",
-          "recall",
-          "iou",
-          "classification_accuracy",
-          "reliability"
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct"
         ]
       }
     }
   },
-  "type": "radar",
+  "type": "bar",
   "sly_options": {
     "tooltip": "Score: {y} Category: {x} Series: {series_name}"
   }
