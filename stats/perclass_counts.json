@@ -79,7 +79,9 @@
         }
       },
       "height": 300,
+      "yaxis": { "title": { "text": "Total Count" } },
       "xaxis": {
+        "title": { "text": "Class" },
         "categories": [
           "hair drier",
           "book",
