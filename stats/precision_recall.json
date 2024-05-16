@@ -1,0 +1,45 @@
+{
+  "series": [
+    {
+      "name": "Precision / Recall",
+      "data": [
+        { "x": 0.75, "y": 0.66 },
+        { "x": 0.74, "y": 0.65 },
+        { "x": 0.72, "y": 0.64 },
+        { "x": 0.71, "y": 0.62 },
+        { "x": 0.68, "y": 0.6 },
+        { "x": 0.64, "y": 0.57 },
+        { "x": 0.59, "y": 0.52 },
+        { "x": 0.52, "y": 0.45 },
+        { "x": 0.39, "y": 0.34 },
+        { "x": 0.19, "y": 0.16 }
+      ]
+    }
+  ],
+  "options": {
+    "chart": {
+      "type": "line",
+      "toolbar": {
+        "tools": {
+          "download": true,
+          "selection": false,
+          "zoom": false,
+          "zoomin": false,
+          "zoomout": false,
+          "pan": false,
+          "reset": false
+        }
+      },
+      "height": 300,
+      "yaxis": { "title": { "text": "Precision / Recall" } },
+      "xaxis": {
+        "title": { "text": "IoU" },
+        "categories": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
+      }
+    }
+  },
+  "type": "line",
+  "sly_options": {
+    "tooltip": "Score: {y} Category: {x} Series: {series_name}"
+  }
+}
