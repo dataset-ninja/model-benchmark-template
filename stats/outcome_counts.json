@@ -1,0 +1,34 @@
+{
+  "series": [
+    {
+      "name": "TP_count, FP_count, FN_count",
+      "data": [24102, 8090, 12233]
+    }
+  ],
+  "options": {
+    "chart": {
+      "type": "bar",
+      "toolbar": {
+        "show": false
+      },
+      "height": 300
+    }
+  },
+  "type": "bar",
+  "plotOptions": {
+    "bar": {
+      "borderRadius": 4,
+      "borderRadiusApplication": "end",
+      "horizontal": true
+    }
+  },
+  "dataLabels": {
+    "enabled": false
+  },
+  "xaxis": {
+    "categories": ["TP_count", "FP_count", "FN_count"]
+  },
+  "sly_options": {
+    "tooltip": "Score: {y} Category: {x} Series: {series_name}"
+  }
+}
