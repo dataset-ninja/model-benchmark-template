@@ -34,7 +34,7 @@
           "reset": false
         }
       },
-      "height": 300,
+      "height": 600,
       "xaxis": {
         "categories": [
           "person",
