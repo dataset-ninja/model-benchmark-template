@@ -61,6 +61,7 @@
   "options": {
     "chart": {
       "type": "bar",
+      "stacked": true,
       "dataLabels": {
         "enabled": false
       },
@@ -164,6 +165,7 @@
     }
   },
   "type": "bar",
+  "stacked": true,
   "dataLabels": {
     "enabled": false
   },
