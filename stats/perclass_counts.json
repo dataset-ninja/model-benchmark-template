@@ -48,7 +48,10 @@
     }
   },
   "type": "bar",
-  "stacked": true,
+  "chart": {
+    "stacked": true,
+    "stackType": "100%"
+  },
   "sly_options": {
     "tooltip": "Score: {y} Category: {x} Series: {series_name}"
   }
