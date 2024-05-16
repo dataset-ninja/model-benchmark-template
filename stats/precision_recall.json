@@ -18,14 +18,14 @@
   ],
   "options": {
     "chart": {
-      "type": "scatter",
+      "type": "line",
       "toolbar": {
         "show": false
       },
       "height": 300
     }
   },
-  "type": "scatter",
+  "type": "line",
   "sly_options": {
     "tooltip": "Score: {y} Category: {x} Series: {series_name}"
   }
