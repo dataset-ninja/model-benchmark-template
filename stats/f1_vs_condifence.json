@@ -258,7 +258,7 @@
   ],
   "options": {
     "chart": {
-      "type": "line",
+      "type": "scatter",
       "toolbar": {
         "tools": {
           "download": true,
@@ -276,7 +276,7 @@
       }
     }
   },
-  "type": "line",
+  "type": "scatter",
   "xaxis": {
     "type": "numeric"
   },
