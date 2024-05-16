@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = None
+PROJECT_NAME: str = "pizza"
 PROJECT_NAME_FULL: str = None
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
@@ -115,8 +115,8 @@ def get_settings():
         "github_url": GITHUB_URL,
     }
 
-    if any([field is None for field in settings.values()]):
-        raise ValueError("Please fill all fields in settings.py after uploading to instance.")
+    # if any([field is None for field in settings.values()]):
+    #     raise ValueError("Please fill all fields in settings.py after uploading to instance.")
 
     settings["release_date"] = RELEASE_DATE
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL

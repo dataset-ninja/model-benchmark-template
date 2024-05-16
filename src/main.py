@@ -4,11 +4,11 @@ import os
 import sys
 
 import supervisely as sly
+from dataset_tools import ProjectRepo
 from dotenv import load_dotenv
 
 import src.options as o
 import src.settings as s
-from dataset_tools import ProjectRepo
 from src.convert import convert_and_upload_supervisely_project
 
 PARENT_PATH = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
@@ -56,6 +56,29 @@ if __name__ == "__main__":
     )
     project_id = get_project_info(api).id
     settings = s.get_settings()
+
+    ###
+
+    # project = api.project.get_info_by_id(project_id)
+    # dataset = api.dataset.get_info_by_id(6973)
+    # for dataset in project
+
+    images = api.image.get_list(6973)
+
+    gts, preds = [], []
+    for image in images:
+        if "gt" in image.name:
+            gts.append(image)
+        if "pred" in image.name:
+            preds.append(image)
+
+    gts = sorted(gts, key=lambda x: x.name)
+    preds = sorted(preds, key=lambda x: x.name)
+
+    # TODO
+
+    # for gt, pred in zip(gts, preds):
+    #     api.annotation.get_label_by_id()
 
     stat_options = o.get_stats_options()
     vis_options = o.get_visualization_options()
