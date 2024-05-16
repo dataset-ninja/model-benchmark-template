@@ -63,6 +63,9 @@
       "type": "bar",
       "stacked": true,
       "stackType": "100%",
+      "dataLabels": {
+        "enabled": false
+      },
       "toolbar": {
         "show": false,
         "tools": {
@@ -166,6 +169,9 @@
   "chart": {
     "stacked": true,
     "stackType": "100%"
+  },
+  "dataLabels": {
+    "enabled": false
   },
   "sly_options": {
     "tooltip": "Score: {y} Category: {x} Series: {series_name}"
