@@ -432,7 +432,7 @@
       "toolbar": {
         "show": false
       },
-      "height": 300
+      "height": 600
     },
     "legend": { "show": false },
     "plotOptions": {
@@ -445,10 +445,11 @@
     },
     "dataLabels": { "enabled": true, "style": { "colors": ["#fff"] } },
     "xaxis": { "title": { "text": "Count of Errors" } },
+    "yaxis": { "title": { "text": "Count of True Predictions" } },
     "tooltip": { "y": {} }
   },
   "type": "heatmap",
-  "height": 300,
+  "height": 600,
   "sly_options": {
     "tooltip": "Y: {y} X: {x} Series: {series_name}"
   }
